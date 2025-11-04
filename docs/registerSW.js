@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/cbt-diary/sw.js', { scope: '/cbt-diary/' })})}
